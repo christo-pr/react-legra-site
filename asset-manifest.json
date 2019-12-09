@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-legra-site/static/css/main.8bbf2446.chunk.css",
-    "main.js": "/react-legra-site/static/js/main.df7140e0.chunk.js",
-    "main.js.map": "/react-legra-site/static/js/main.df7140e0.chunk.js.map",
+    "main.js": "/react-legra-site/static/js/main.5ab88724.chunk.js",
+    "main.js.map": "/react-legra-site/static/js/main.5ab88724.chunk.js.map",
     "runtime-main.js": "/react-legra-site/static/js/runtime-main.e3d7ef96.js",
     "runtime-main.js.map": "/react-legra-site/static/js/runtime-main.e3d7ef96.js.map",
     "static/js/2.5df91ffc.chunk.js": "/react-legra-site/static/js/2.5df91ffc.chunk.js",
     "static/js/2.5df91ffc.chunk.js.map": "/react-legra-site/static/js/2.5df91ffc.chunk.js.map",
     "index.html": "/react-legra-site/index.html",
-    "precache-manifest.6081e86bd6916bbc1d0ca0486d24cf9d.js": "/react-legra-site/precache-manifest.6081e86bd6916bbc1d0ca0486d24cf9d.js",
+    "precache-manifest.86d295a92f4e7ccfbe80ffd18369ea1e.js": "/react-legra-site/precache-manifest.86d295a92f4e7ccfbe80ffd18369ea1e.js",
     "service-worker.js": "/react-legra-site/service-worker.js",
     "static/css/main.8bbf2446.chunk.css.map": "/react-legra-site/static/css/main.8bbf2446.chunk.css.map",
     "static/js/2.5df91ffc.chunk.js.LICENSE": "/react-legra-site/static/js/2.5df91ffc.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e3d7ef96.js",
     "static/js/2.5df91ffc.chunk.js",
     "static/css/main.8bbf2446.chunk.css",
-    "static/js/main.df7140e0.chunk.js"
+    "static/js/main.5ab88724.chunk.js"
   ]
 }
