@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43c4c863145497756001ca467dd57a8f",
+    "revision": "a4c3ef3b222765dfd95c354542b40f4a",
     "url": "/react-legra-site/index.html"
   },
   {
-    "revision": "5958dc05c2f4459f0a01",
+    "revision": "743d93ef0fada56ebda0",
     "url": "/react-legra-site/static/css/main.8bbf2446.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-legra-site/static/js/2.fc1d0a91.chunk.js.LICENSE"
   },
   {
-    "revision": "5958dc05c2f4459f0a01",
-    "url": "/react-legra-site/static/js/main.7dc824a5.chunk.js"
+    "revision": "743d93ef0fada56ebda0",
+    "url": "/react-legra-site/static/js/main.4af082d3.chunk.js"
   },
   {
     "revision": "bee295a500f8742a2f9e",
