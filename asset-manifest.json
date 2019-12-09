@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-legra-site/static/css/main.8bbf2446.chunk.css",
+    "main.js": "/react-legra-site/static/js/main.4af082d3.chunk.js",
+    "main.js.map": "/react-legra-site/static/js/main.4af082d3.chunk.js.map",
+    "runtime-main.js": "/react-legra-site/static/js/runtime-main.e3d7ef96.js",
+    "runtime-main.js.map": "/react-legra-site/static/js/runtime-main.e3d7ef96.js.map",
+    "static/js/2.fc1d0a91.chunk.js": "/react-legra-site/static/js/2.fc1d0a91.chunk.js",
+    "static/js/2.fc1d0a91.chunk.js.map": "/react-legra-site/static/js/2.fc1d0a91.chunk.js.map",
+    "index.html": "/react-legra-site/index.html",
+    "precache-manifest.383f22735c2f0a9c0a2aa78d669e4965.js": "/react-legra-site/precache-manifest.383f22735c2f0a9c0a2aa78d669e4965.js",
+    "service-worker.js": "/react-legra-site/service-worker.js",
+    "static/css/main.8bbf2446.chunk.css.map": "/react-legra-site/static/css/main.8bbf2446.chunk.css.map",
+    "static/js/2.fc1d0a91.chunk.js.LICENSE": "/react-legra-site/static/js/2.fc1d0a91.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3d7ef96.js",
+    "static/js/2.fc1d0a91.chunk.js",
+    "static/css/main.8bbf2446.chunk.css",
+    "static/js/main.4af082d3.chunk.js"
+  ]
+}
