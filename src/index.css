@@ -1,13 +1,138 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*
+* HEADER
+*/
+.legra-logo {
+  height: 280px;
+  width: 350px;
+  animation: spin 5s linear infinite
 }
+
+.hero-react, .hero-legra {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 120px;
+}
+/***************************************/
+
+
+/*
+* DESCRIPTION AND INSTALLATION
+*/
+.components-samples {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  display: inline-block;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+.rl-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.installation pre {
+  max-width: 50%;
+}
+
+.installation, .description {
+  font-family: 'Tomorrow', sans-serif;
+  padding: 1rem;
+}
+
+.installation .default-props {
+  margin: 30px 0 0 0;
+}
+
+.code-card {
+  min-width: 753px;
+}
+
+/***************************************/
+
+/*
+* SLIDER
+*/
+.slidecontainer {
+  width: 70%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+/***************************************/
+
+
+/*
+* PROPS TABLES
+*/
+table {
+  border-collapse: collapse;
+  min-width: 60%;
+  background: white;
+  margin-top: 20px;
+}
+td, th {
+  border: 1px solid #dfe2e5;
+  padding: 0.6rem;
+}
+
+tr:nth-child(even) {
+  background: #f6f8fa;
+}
+/***************************************/
+
+/*
+* ANIMATIONS
+*/
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+/***************************************/
