@@ -10,7 +10,7 @@ export default function ImageExample() {
 
   const lineComponent = (
     <Board width={500} height={500}>
-       <Image src="/cat.jpg" bs={8} width={500} height={500} />
+       <Image src="/react-legra-site/cat.jpg" bs={8} width={500} height={500} />
     </Board>
   )
 
