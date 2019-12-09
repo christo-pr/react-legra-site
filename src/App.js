@@ -21,7 +21,7 @@ export default function App() {
             <p>React</p>
           </div>
           <div className="flex-1 self-start">
-            <img className="self-center legra-logo mx-auto" src="/react-legra-site/react-site.png" alt="legrajs & reactjs" height="200" />
+            <img className="self-center legra-logo mx-auto" src="/react-site.png" alt="legrajs & reactjs" height="200" />
           </div>
           <div className="flex-1 self-center hero-legra">
             <p>Legra</p>
@@ -32,7 +32,7 @@ export default function App() {
       <section className="container mx-auto mt-20">
         <div className="flex">
           <div className="flex-none">
-            <img className="rl-icon" src="/react-legra-site/favicon.png" alt="legra icon" width="45" />
+            <img className="rl-icon" src="/favicon.png" alt="legra icon" width="45" />
           </div>
           <h1>React legra</h1>
         </div>
