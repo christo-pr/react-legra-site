@@ -9,7 +9,7 @@ import RectangleExample from './examples/RectangleExample'
 import PolygonExample from './examples/PolygonExample'
 import EllipseExample from './examples/EllipseExample'
 import ArcExample from './examples/ArcExample'
-// import BezierCurveExample from './examples/BezierCurveExample'
+import BezierCurveExample from './examples/BezierCurveExample'
 
 export default function App() {
 
@@ -98,9 +98,9 @@ export default function App() {
           <div className="block my-10">
             <ArcExample />
           </div>
-          {/* <div className="block my-10">
+          <div className="block my-10">
             <BezierCurveExample />
-          </div> */}
+          </div>
         </div>
       </section>
     </div>
