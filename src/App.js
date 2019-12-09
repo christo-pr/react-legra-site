@@ -56,7 +56,8 @@ export default function App() {
           <p>
             To start drawing, you first need to create a canvas to draw on,
             the <code className="language-jsx">{"<Board />"}</code> component will do that for you.
-
+          </p>
+          <p>
             The <code className="language-jsx">{"<Board />"}</code> component recieve the same props as a `canvas` element,
             and additionally you can set the <b>canvas</b> prop, to reference all the drawing to an external canvas
           </p>
