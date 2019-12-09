@@ -22,4 +22,4 @@ jobs:
         git config --global user.email "cristofer.flort@gmail.com"
         git config --global user.name "Christofer Flores"
         git remote set-url origin https://${{ secrets.ACCESS_TOKEN }}@github.com/christo-pr/react-legra-site.git
-      run: npm run deploy
+        npm run deploy
