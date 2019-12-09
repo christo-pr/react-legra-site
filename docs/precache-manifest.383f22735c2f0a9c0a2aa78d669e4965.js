@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4c3ef3b222765dfd95c354542b40f4a",
+    "revision": "72e45703b7138b9c918cb91c54b3a6cc",
     "url": "/react-legra-site/index.html"
   },
   {
