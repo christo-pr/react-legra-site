@@ -33,7 +33,7 @@ export default function BezierCurveExample() {
 
   return (
     <ExampleLayout
-      title="Bezieri Component"
+      title="Bézier Component"
       description="Draws a bézier curve from `(x1, y1)` to `(x2, y2)` with `(cp1x, cp1y)` and `(cp2x, cp2y)` as the curve's control points."
       component={lineComponent}
       code={codeExample}
