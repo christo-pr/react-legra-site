@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-legra-site/precache-manifest.e51ffb62d7191368167beabfc89e0980.js"
+  "/react-legra-site/precache-manifest.9661aada9295c2eb01a01074fa3c3cc5.js"
 );
 
 self.addEventListener('message', (event) => {

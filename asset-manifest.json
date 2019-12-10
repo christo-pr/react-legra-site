@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-legra-site/static/css/main.8bbf2446.chunk.css",
-    "main.js": "/react-legra-site/static/js/main.5ab88724.chunk.js",
-    "main.js.map": "/react-legra-site/static/js/main.5ab88724.chunk.js.map",
+    "main.js": "/react-legra-site/static/js/main.1e8a5c00.chunk.js",
+    "main.js.map": "/react-legra-site/static/js/main.1e8a5c00.chunk.js.map",
     "runtime-main.js": "/react-legra-site/static/js/runtime-main.e3d7ef96.js",
     "runtime-main.js.map": "/react-legra-site/static/js/runtime-main.e3d7ef96.js.map",
-    "static/js/2.5df91ffc.chunk.js": "/react-legra-site/static/js/2.5df91ffc.chunk.js",
-    "static/js/2.5df91ffc.chunk.js.map": "/react-legra-site/static/js/2.5df91ffc.chunk.js.map",
+    "static/js/2.a6cb331e.chunk.js": "/react-legra-site/static/js/2.a6cb331e.chunk.js",
+    "static/js/2.a6cb331e.chunk.js.map": "/react-legra-site/static/js/2.a6cb331e.chunk.js.map",
     "index.html": "/react-legra-site/index.html",
-    "precache-manifest.e51ffb62d7191368167beabfc89e0980.js": "/react-legra-site/precache-manifest.e51ffb62d7191368167beabfc89e0980.js",
+    "precache-manifest.9661aada9295c2eb01a01074fa3c3cc5.js": "/react-legra-site/precache-manifest.9661aada9295c2eb01a01074fa3c3cc5.js",
     "service-worker.js": "/react-legra-site/service-worker.js",
     "static/css/main.8bbf2446.chunk.css.map": "/react-legra-site/static/css/main.8bbf2446.chunk.css.map",
-    "static/js/2.5df91ffc.chunk.js.LICENSE": "/react-legra-site/static/js/2.5df91ffc.chunk.js.LICENSE"
+    "static/js/2.a6cb331e.chunk.js.LICENSE": "/react-legra-site/static/js/2.a6cb331e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.e3d7ef96.js",
-    "static/js/2.5df91ffc.chunk.js",
+    "static/js/2.a6cb331e.chunk.js",
     "static/css/main.8bbf2446.chunk.css",
-    "static/js/main.5ab88724.chunk.js"
+    "static/js/main.1e8a5c00.chunk.js"
   ]
 }
