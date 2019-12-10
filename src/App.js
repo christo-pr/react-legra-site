@@ -10,6 +10,7 @@ import PolygonExample from './examples/PolygonExample'
 import EllipseExample from './examples/EllipseExample'
 import ArcExample from './examples/ArcExample'
 import BezierCurveExample from './examples/BezierCurveExample'
+import QuadraticCurveExample from './examples/QuadraticCurveExample'
 
 export default function App() {
 
@@ -101,6 +102,9 @@ export default function App() {
           </div>
           <div className="block my-10">
             <BezierCurveExample />
+          </div>
+          <div className="block my-10">
+            <QuadraticCurveExample />
           </div>
         </div>
       </section>

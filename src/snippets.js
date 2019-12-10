@@ -139,6 +139,29 @@ const snippets = {
       color?: blue
     },
     bs: 24 // Brick size, default to 24
+  `,
+  Quadratic: `
+    import React from 'react'
+    import Board from 'react-legra'
+
+    function Example () {
+
+      return (
+        <Board>
+          <Board.QuadraticCurve
+            from={[10,5]}
+            to={[20, 20]}
+            controlPointX={[8, 30, 18, 1]}
+          />
+        </Board>
+      )
+    }
+  `,
+  ConfigProps: `
+    options: { // To control the look and feel of the component
+      color?: blue
+    },
+    bs: 24 // Brick size, default to 24
   `
 }
 

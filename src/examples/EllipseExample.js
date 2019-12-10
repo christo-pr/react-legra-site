@@ -27,7 +27,9 @@ export default function EllipseExample() {
   return (
     <ExampleLayout
       title="Ellipse Component"
-      description="Draw an ellipse from the `center` point and the horizontal and vertical axis lenght controlled by `hAxis` and `vAxis` props"
+      description={`Draw an ellipse from the <i>center</i> point
+        and the horizontal and vertical axis lenght controlled by <i>hAxis</i> and <i>vAxis</i> props"
+      `}
       code={codeExample}
       componentProps={ownProps}
       component={lineComponent}
