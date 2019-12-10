@@ -26,7 +26,7 @@ export default function CircleExample() {
   return (
     <ExampleLayout
       title="Cricle Component"
-      description=" Draw a circle from the `center` point and with the given `radius"
+      description="Draw a circle from the <i>center</i> point and with the given <i>radius</i>"
       component={lineComponent}
       code={codeExample}
       componentProps={ownProps}

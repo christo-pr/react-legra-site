@@ -26,7 +26,7 @@ export default function ImageExample() {
   return (
     <ExampleLayout
       title="Image Component"
-      description="Draw an image with Legos!!!"
+      description="Draw an image with <strong>Legos!!!</strong>"
       code={codeExample}
       componentProps={ownProps}
       component={lineComponent}

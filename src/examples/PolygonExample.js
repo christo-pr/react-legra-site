@@ -31,7 +31,7 @@ export default function PolygonExample() {
   return (
     <ExampleLayout
       title="Polygon Component"
-      description="Draw a polygon with the given `vertices`"
+      description="Draw a polygon with the given <i>vertices</i>"
       code={codeExample}
       componentProps={ownProps}
       component={lineComponent}

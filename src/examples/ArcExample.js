@@ -26,7 +26,11 @@ export default function ArcExample() {
   return (
     <ExampleLayout
       title="Arc Component"
-      description="An arc is just a **section** of an ellipse controlled by the additional `start` and `stop` props which represent the angle of the arc, also you can _'close'_ the arc form by these 2 points with the `filled` prop set to true"
+      description={`
+        An arc is just a **section** of an ellipse controlled by the additional <i>start</i>
+        and <i>stop</i> props which represent the angle of the arc,
+        also you can <i>close</i> the arc form by these 2 points with the <i>filled</i> prop set to true
+      `}
       component={lineComponent}
       code={codeExample}
       componentProps={ownProps}

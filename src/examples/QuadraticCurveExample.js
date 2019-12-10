@@ -1,42 +1,40 @@
 import React, { useState } from 'react'
-import Board, { BezierCurve } from 'react-legra'
+import Board, { QuadraticCurve } from 'react-legra'
 
 import Controls from '../ui/Controls'
 import CodeSnippet from '../ui/CodeSnippet'
 import ExampleLayout from '../ui/ExampleLayout'
 
-export default function BezierCurveExample() {
+export default function QuadraticCurveExample() {
   const [ brickSize, setBrickSize ] = useState(10)
 
   const lineComponent = (
     <Board width="500" height="500">
-      <BezierCurve
+      <QuadraticCurve
         bs={brickSize}
         from={[10,5]}
         to={[20, 20]}
-        controlPointX={[8, 30]}
-        controlPointY={[18, 1]}
+        controlPoint={[8, 30, 18, 1]}
       />
     </Board>
   )
 
   const lineControls = (<Controls value={brickSize} setValue={setBrickSize} />)
 
-  const codeExample = (<CodeSnippet component="Bezier" />)
+  const codeExample = (<CodeSnippet component="Quadratic" />)
 
   const ownProps = {
     'from': ['Array[x, y]', '-', true],
     'to': ['Array[x, y]', '-', true],
-    'controlPointX': ['Array[x, y]', '-', true],
-    'controlPointY': ['Array[x, y]', '-', true],
+    'controlPoint': ['Array[x1, y1, x2, y2]', '-', true],
   }
 
   return (
     <ExampleLayout
-      title="Bézier Component"
+      title="Quadratic Curve Component"
       description={`
-        Draws a bézier curve from <i>(x1, y1)</i> to <i>(x2, y2)</i>
-        with <i>(cp1x, cp1y)</i> and <i>(cp2x, cp2y)</i> as the curve's control points.
+        Draws a quadratic curve from <i>(x1, y1)</i> to <i>(x2, y2)</i>
+        with <i>(cpx, cpy)</i> as the curve's control point.
       `}
       component={lineComponent}
       code={codeExample}

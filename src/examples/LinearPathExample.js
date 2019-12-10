@@ -25,7 +25,10 @@ export default function LinearPathExample() {
   return (
     <ExampleLayout
       title="Linear Path Component"
-      description="Draw a set of lines connecting the specified points. `points` is an array of arrays of points `(x, y)`."
+      description={`
+        Draw a set of lines connecting the specified points.
+        <i>points</i> is an array of arrays of points <i>(x, y)</i>.
+      `}
       code={codeExample}
       componentProps={ownProps}
       component={lineComponent}
